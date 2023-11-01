@@ -1,0 +1,95 @@
+h1{
+    color:black;
+    margin-top: 0;
+}
+h4{
+    margin-top: 1;
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#body{
+    background-color:orange ;
+    opacity: 0.9;
+}
+
+    
+ul {
+    list-style-type:none;
+    margin: 50px;
+    padding: 10px;
+    overflow: hidden;
+    background-color:rgb(44, 39, 39);
+    position: relative;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display:float;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: grey;
+  }
+
+
+  
+.active{
+    background-color:rgb(5, 87, 5);
+}
+.active1{
+    background-color:rgb(5, 87, 5);
+}
+.active2{
+    background-color:rgb(5, 87, 5);
+}
+.active3{
+    background-color:rgb(5, 87, 5);
+}
+
+.mySlides w3-animate-right{
+    width:900px ;
+    height: 900px;
+}
+
+.slideshow img{
+    width:1290px ;
+    height: 700px;
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+}
+div.pics{
+    margin: 10px;
+    border: 2px solid ;color: rgb(247, 116, 9);
+    float:left;
+    width: 400px;
+    align-items: center;     
+}
+div.pics:hover{
+    border: 1px solid;
+    color: blanchedalmond;
+}
+div.desc{
+    padding:20px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+a{
+    font-size:30px ;
+    align-content: center;
+    color:rgb(58, 56, 56);
+}

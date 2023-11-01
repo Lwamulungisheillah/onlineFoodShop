@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./STYLES/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE FOOD SHOP</title>
+    <style>
+        .mySlides {display:none;}
+    </style>
+</head>
+<div id="div">
+<body id="body">
+  <nav><img src="download-removebg-preview.png" width="8px" height="250px">
+    <h1 class="header" style="font-size: 80px; font-family:Arial, Helvetica, sans-serif; text-align:center">ONLINE FOOD SHOP</h1>
+    <h4 style="text-align:center; font-size:30px; color:BLACK
+    ;">"tasty food,healty food"</h4>
+  </nav>  
+</div>
+    <ul>
+        <li><a class="active" href="./index.html">HOME</a></li>
+        <li><a href="./navigation/about.html">ABOUT US</a></li>
+        <li><a href="./navigation/menu.html">MENU</a></li>
+        <li><a href="./navigation/contact.html">CONTACT US</a></li>
+    </ul>
+    
+    <div class="slideshow" style="max-width:500px">
+      
+        <img class="mySlides w3-animate-right" src="Korean-Fried-Chicken-square-FS-New-7377.jpg" >
+        <img class="mySlides w3-animate-right" src="Burger-and-Fries.jpg">
+        <img class="mySlides w3-animate-right" src="fries.jpg" >
+        <img class="mySlides w3-animate-right" src="milk shakes.jpg" >
+        <img class="mySlides w3-animate-right" src="rice.jpg">
+    </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 1500);    
+      }
+      </script>
+      
+</body>
+</html>
